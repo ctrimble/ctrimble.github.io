@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Mr. Hat's Lisbon Arithmetic]]></title>
-  <link href="http://xiantrimble.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Noise | Mr. Hat's Lisbon Arithmetic]]></title>
+  <link href="http://xiantrimble.com/blog/categories/noise/atom.xml" rel="self"/>
   <link href="http://xiantrimble.com/"/>
   <updated>2014-02-27T22:20:30-07:00</updated>
   <id>http://xiantrimble.com/</id>
