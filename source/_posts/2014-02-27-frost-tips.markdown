@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Frost Tips"
+date: 2014-02-27 20:35:56 -0700
+comments: true
+published: true
+categories: [Noise]
+---
+I am Christian Thomas Trimble and what follows is a series of not so random ones and zeros.  Expect to see posts
+about programming, math and well researched nonsense. Enjoy!
+
+\- Management
