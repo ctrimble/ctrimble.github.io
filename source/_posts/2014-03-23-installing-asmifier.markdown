@@ -3,11 +3,10 @@ layout: post
 title: "Installing ASMifier"
 date: 2014-03-23 08:13:57 -0700
 comments: true
-categories: [bytecode Java8 ASM]
+categories: [bytecode, Java 8, ASM, Signal]
 ---
 With the release of Java 8, it is time to figure out the impact of the new language features on some of
-my projects.  In particular, I have a project called Chlorine that transforms class files as they are
-loaded.  To get a better idea of what is going on in the bytecode, I have been turning some compiled classes
+my projects.  To get a better idea of what is going on in the bytecode, I have been transforming some compiled classes
 into ASM class visitors, using ASMifier.  I will be sharing those in some later posts, but I thought I would 
 get started with some instruction on how to install and use ASMifier to look at bytecode.
 
