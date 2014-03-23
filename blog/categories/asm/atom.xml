@@ -4,7 +4,7 @@
   <title><![CDATA[Category: ASM | Mr. Hat's Lisbon Arithmetic]]></title>
   <link href="http://xiantrimble.com/blog/categories/asm/atom.xml" rel="self"/>
   <link href="http://xiantrimble.com/"/>
-  <updated>2014-03-23T12:30:16-07:00</updated>
+  <updated>2014-03-23T13:35:56-07:00</updated>
   <id>http://xiantrimble.com/</id>
   <author>
     <name><![CDATA[Christian Trimble]]></name>
@@ -19,8 +19,7 @@
     <updated>2014-03-23T08:13:57-07:00</updated>
     <id>http://xiantrimble.com/blog/2014/03/23/installing-asmifier</id>
     <content type="html"><![CDATA[<p>With the release of Java 8, it is time to figure out the impact of the new language features on some of
-my projects.  In particular, I have a project called Chlorine that transforms class files as they are
-loaded.  To get a better idea of what is going on in the bytecode, I have been turning some compiled classes
+my projects.  To get a better idea of what is going on in the bytecode, I have been transforming some compiled classes
 into ASM class visitors, using ASMifier.  I will be sharing those in some later posts, but I thought I would
 get started with some instruction on how to install and use ASMifier to look at bytecode.</p>
 

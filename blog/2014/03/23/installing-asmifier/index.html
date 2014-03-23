@@ -10,7 +10,7 @@
 
   
   <meta name="description" content="With the release of Java 8, it is time to figure out the impact of the new language features on some of
-my projects. In particular, I have a project &hellip;">
+my projects. To get a better idea of what is &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -105,8 +105,7 @@ my projects. In particular, I have a project &hellip;">
 
 
 <div class="entry-content"><p>With the release of Java 8, it is time to figure out the impact of the new language features on some of
-my projects.  In particular, I have a project called Chlorine that transforms class files as they are
-loaded.  To get a better idea of what is going on in the bytecode, I have been turning some compiled classes
+my projects.  To get a better idea of what is going on in the bytecode, I have been transforming some compiled classes
 into ASM class visitors, using ASMifier.  I will be sharing those in some later posts, but I thought I would
 get started with some instruction on how to install and use ASMifier to look at bytecode.</p>
 
@@ -342,6 +341,41 @@ ASM class visitors.  Stay tuned.</p>
   </ul>
 </section>
 
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/ctrimble">@ctrimble</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'ctrimble',
+            count: 5,
+            skip_forks: true,
+            skip_repos: [ "ctrimble.github.com", "github-wiki-doclet", "maven-release-test", "maven-archetypes", "neon", "jersey-docker-example", "clojure-example", "aparapi", "homebrew-tap" ],
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+ <section>
+     <h1>Twitter</h1>
+     <a class="twitter-timeline" href="https://twitter.com/xiantrimble" data-widget-id="447829792671272961">Tweets by @xiantrimble</a>
+     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+ </section>
 
 
 
