@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Mr. Hat's Lisbon Arithmetic</title>
+  <title>Installing ASMifier - Mr. Hat's Lisbon Arithmetic</title>
   <meta name="author" content="Christian Trimble">
 
   
@@ -19,7 +19,7 @@ my projects. In particular, I have a project &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://xiantrimble.com">
+  <link rel="canonical" href="http://xiantrimble.com/blog/2014/03/23/installing-asmifier">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Mr. Hat's Lisbon Arithmetic" type="application/atom+xml">
@@ -76,15 +76,12 @@ my projects. In particular, I have a project &hellip;">
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2014/03/23/installing-asmifier/">Installing ASMifier</a></h1>
+      <h1 class="entry-title">Installing ASMifier</h1>
     
     
       <p class="meta">
@@ -107,7 +104,7 @@ my projects. In particular, I have a project &hellip;">
   </header>
 
 
-  <div class="entry-content"><p>With the release of Java 8, it is time to figure out the impact of the new language features on some of
+<div class="entry-content"><p>With the release of Java 8, it is time to figure out the impact of the new language features on some of
 my projects.  In particular, I have a project called Chlorine that transforms class files as they are
 loaded.  To get a better idea of what is going on in the bytecode, I have been turning some compiled classes
 into ASM class visitors, using ASMifier.  I will be sharing those in some later posts, but I thought I would
@@ -269,22 +266,16 @@ need to remove that import if you want to compile this generated file.</p>
 <p>That is it for this post.  In some future articles, we will look at the way lambdas and method references are represented in
 ASM class visitors.  Stay tuned.</p>
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/02/27/welcome/">Welcome!</a></h1>
-    
-    
-      <p class="meta">
-        
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Christian Trimble</span></span>
+
+      
 
 
 
@@ -296,30 +287,44 @@ ASM class visitors.  Stay tuned.</p>
   
 
 
-<time datetime="2014-02-27T20:35:56-07:00" pubdate data-updated="true">Feb 27<span>th</span>, 2014</time>
-        
-      </p>
+<time datetime="2014-03-23T08:13:57-07:00" pubdate data-updated="true">Mar 23<span>rd</span>, 2014</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/bytecode-java8-asm/'>bytecode Java8 ASM</a>
+  
+</span>
+
+
+    </p>
     
-  </header>
-
-
-  <div class="entry-content"><p>I am Christian Thomas Trimble and what follows is a series of not so random ones and zeros.  Expect to see posts
-about programming, math and well researched nonsense. Enjoy!</p>
-
-<p>- Management</p>
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://xiantrimble.com/blog/2014/03/23/installing-asmifier/" data-via="@xiantrimble" data-counturl="http://xiantrimble.com/blog/2014/03/23/installing-asmifier/" >Tweet</a>
+  
+  
+  
 </div>
-  
-  
 
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2014/02/27/welcome/" title="Previous Post: Welcome!">&laquo; Welcome!</a>
+      
+      
+    </p>
+  </footer>
+</article>
 
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
+  </section>
+
+</div>
+
 <aside class="sidebar">
   
     <section>
@@ -344,6 +349,7 @@ about programming, math and well researched nonsense. Enjoy!</p>
   
 </aside>
 
+
     </div>
   </div>
   <footer role="contentinfo"><p>
@@ -358,7 +364,10 @@ about programming, math and well researched nonsense. Enjoy!</p>
       var disqus_shortname = 'xiantrimble';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://xiantrimble.com/blog/2014/03/23/installing-asmifier/';
+        var disqus_url = 'http://xiantrimble.com/blog/2014/03/23/installing-asmifier/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
