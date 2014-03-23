@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Mr. Hat's Lisbon Arithmetic]]></title>
-  <link href="http://xiantrimble.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Signal | Mr. Hat's Lisbon Arithmetic]]></title>
+  <link href="http://xiantrimble.com/blog/categories/signal/atom.xml" rel="self"/>
   <link href="http://xiantrimble.com/"/>
   <updated>2014-03-23T12:30:16-07:00</updated>
   <id>http://xiantrimble.com/</id>
@@ -70,7 +70,7 @@ Usage: ASMifier [-debug] &lt;fully qualified class name or class file name&gt;
 <p>Now that we have ASMifier installed, let&rsquo;s run a quick transform on a simple &ldquo;Hello World!&rdquo; class file.  To begin, we
 will need some compiled source.  Write this class file into a file called HelloWorld.java.</p>
 
-<figure class='code'><figcaption><span>HelloWorld.java  (HelloWorld.java)</span> <a href='http://xiantrimble.com/downloads/code/asm/HelloWorld.java'>download</a></figcaption>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>HelloWorld.java  (HelloWorld.java)</span> <a href='/downloads/code/asm/HelloWorld.java'>download</a></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -81,8 +81,7 @@ will need some compiled source.  Write this class file into a file called HelloW
 </span><span class='line'>    <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;Hello World!&quot;</span><span class="o">);</span>
 </span><span class='line'>  <span class="o">}</span>
 </span><span class='line'><span class="o">}</span>
-</span></code></pre></td></tr></table></div></figure>
-
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>Then compile it with javac, creating HelloWorld.class.</p>
 
@@ -94,7 +93,7 @@ will need some compiled source.  Write this class file into a file called HelloW
 <pre><code>asmifier HelloWorld.class &gt; HelloWorldDump.java
 </code></pre>
 
-<figure class='code'><figcaption><span>HelloWorldDump.java  (HelloWorldDump.java)</span> <a href='http://xiantrimble.com/downloads/code/asm/HelloWorldDump.java'>download</a></figcaption>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>HelloWorldDump.java  (HelloWorldDump.java)</span> <a href='/downloads/code/asm/HelloWorldDump.java'>download</a></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -171,26 +170,13 @@ will need some compiled source.  Write this class file into a file called HelloW
 </span><span class='line'><span class="k">return</span> <span class="n">cw</span><span class="o">.</span><span class="na">toByteArray</span><span class="o">();</span>
 </span><span class='line'><span class="o">}</span>
 </span><span class='line'><span class="o">}</span>
-</span></code></pre></td></tr></table></div></figure>
-
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p><strong>Note:</strong> Unfortunately, package <code>org.objectweb.asm.attrs</code> was removed in ASM 5.0, but this was not reflected in the ASMifier tool, so you will
 need to remove that import if you want to compile this generated file.</p>
 
 <p>That is it for this post.  In some future articles, we will look at the way lambdas and method references are represented in
 ASM class visitors.  Stay tuned.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Welcome!]]></title>
-    <link href="http://xiantrimble.com/blog/2014/02/27/welcome/"/>
-    <updated>2014-02-27T20:35:56-07:00</updated>
-    <id>http://xiantrimble.com/blog/2014/02/27/welcome</id>
-    <content type="html"><![CDATA[<p>I am Christian Thomas Trimble and what follows is a series of not so random ones and zeros.  Expect to see posts
-about programming, math and well researched nonsense. Enjoy!</p>
-
-<p>- Management</p>
 ]]></content>
   </entry>
   
